@@ -47,7 +47,7 @@ for elem in l:
 
 print(res[0])
 
-g = open('data.js', 'w')
+g = open('js/data.js', 'w')
 g.write('datas = [%s]' % ',\n'.join(res));
 g.close();
 
