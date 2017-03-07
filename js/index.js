@@ -3,7 +3,7 @@ function setText(text){
 }
 
 function addButton(text, dst){
-    dom = '<div class="button" onclick="setPage('+dst+')">'+text+'</div>';
+    dom = '<div class="button" onclick="setPage('+dst+')"><p>'+text+'</p></div>';
     document.getElementById("buttons").innerHTML += dom;
 }
 
