@@ -12,7 +12,7 @@ http.createServer(app).listen(55007, '172.31.10.167')
 
 app.get('/', (req, res) => {
     console.log('GET /')
-    res.sendFile(path.join(__dirname, '/html/index.html'));
+    res.sendFile(path.join(__dirname, '/html/index2.html'));
 });
 
 console.log('nalida.info running')
